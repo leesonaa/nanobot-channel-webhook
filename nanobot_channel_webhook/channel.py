@@ -64,8 +64,8 @@ class WebhookChannel(BaseChannel):
 
         # 直接转发到 QQ，不经过 AI 处理
         qq_msg = OutboundMessage(
-            channel="你的频道名",  # 修改为你自己的频道名
-            chat_id="你的chatid",  # chat_id 请从运行日志中获取并替换
+            channel="频道",
+            chat_id="你的chatid",
             content=text,
             media=[],
             metadata={},

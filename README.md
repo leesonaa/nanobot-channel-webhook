@@ -1,6 +1,7 @@
 # nanobot-channel-webhook
 
-这是一个用于 Nanobot 的 Webhook 通道扩展。
+这是一个用于 Nanobot 的 Webhook 通道扩展。不经过agent处理,直接通过Chanel总线转发到频道.
+端口为9000 地址为: http://youidaddr:9000/message  没有鉴权.仅放在内部使用.比如mp nastools lucky的ddns/stun的webhook通知,只要往这个接口post就行.
 
 ## 安装步骤
 
